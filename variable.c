@@ -2,15 +2,15 @@
 # include <string.h>
 
 int main (){
-  char x[15] = "Water";
-  char y[15] = "soda";
+  char x [15] = "Water";
+  char y [15] = "Soda";
   char temp[15];
+
   strcpy(temp, x);
   strcpy(x,y);
   strcpy(y, temp);
-
   printf("x = %s\n" , x);
-  printf("y = %s\n", y);
+  printf("y = %s" , y);
 
 
   return 0;
